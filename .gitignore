@@ -1,0 +1,25 @@
+# Ignore Composer dependencies
+/vendor/
+composer.lock
+
+# Ignore IDE files
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and temp files
+*.log
+*.cache
+*.tmp
+*.bak
+
+# Ignore environment files
+.env
+
+# Ignore XAMPP session files
+/tmp/
